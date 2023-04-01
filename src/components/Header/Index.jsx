@@ -3,13 +3,13 @@ import { ItemNav } from './ItemNav'
 
 export function Header (){
   return(
-    <header className='container mx-auto px-24 py-4 flex justify-between items-center bg-purple-950'>
+    <header className='sm:px-12 lg:px-24 py-4 flex justify-center sm:justify-between items-center bg-black'>
       <img src={logo} alt="logo" className='h-full' />
-      <ul className='flex space-x-8'>
+      <ul className='sm:flex space-x-8 hidden'>
         <ItemNav text={"Ínicio"}/>
         <ItemNav text={"Sobre"}/>
-        <ItemNav text={"Qualificações"}/>
         <ItemNav text={"Projetos"}/>
+        <ItemNav text={"Qualificações"}/>
         <ItemNav text={"Experiencia"}/>
       </ul>
 

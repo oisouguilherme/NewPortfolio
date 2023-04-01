@@ -2,14 +2,14 @@ import perfil from '../../assets/perfil.png'
 
 export function CardSobreMim(){
   return(
-    <div className="container mx-auto h-fit flex justify-center bg-black px-24 pb-24">
-      <div className="bg-white bg-opacity-5 w-3/4 flex border border-gray-500">
-        <div className="w-1/2 flex flex-col mt-12 px-8 relative">
+    <div className="flex justify-center bg-black bg-opacity-95 px-0 md:px-8 lg:px-24 py-24">
+      <div className="bg-black bg-opacity-5 w-3/4 flex flex-col items-center text-center lg:flex-row lg:text-start border border-gray-500">
+        <div className="w-1/2 pt-12 flex flex-col items-center lg:items-start">
           <a 
           href="#" 
-          className="bg-purple-800 shadow-sm shadow-gray-100 text-white font-medium px-6 py-1 rounded max-w-fit hover:bg-purple-700 absolute">Clique Aqui</a>
+          className="bg-purple-800 shadow-sm shadow-gray-100 text-white font-medium px-6 py-1 rounded w-36 hover:bg-purple-700 lg:ml-6 ">Clique Aqui</a>
           <img 
-          className='rounded-full w-3/4 mx-auto my-20'
+          className='rounded-full w-96 lg:w-3/4 mx-auto mt-20 lg:my-12'
           src={perfil} 
           alt="minha foto de perfil" />
         </div>
@@ -20,16 +20,16 @@ export function CardSobreMim(){
         
           <p className="text-white text-lg">Frontend Developer & Tester de Software</p>
           
-          <p className="text-white text-lg pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo officiis voluptas doloremque eligendi. Officia repellat et vel similique saepe vero quod facere dolorem libero possimus ab adipisci, , sapiente pariatur, sapiente pariatur, sapiente pariatursapiente pariatur.</p>
+          <p className="text-white text-lg pt-4 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo officiis voluptas doloremque eligendi. Officia repellat et vel similique saepe vero quod facere dolorem libero possimus ab adipisci, , sapiente pariatur, sapiente pariatur, sapiente pariatursapiente pariatur.</p>
 
-          <div className='space-x-4 pt-6'>
+          <div className='pt-6 flex gap-6 flex-wrap'>
             <a 
             href="#"
-            className='bg-purple-800 hover:bg-purple-700 shadow-sm shadow-gray-100 px-8 py-2 rounded font-medium text-white'
+            className='bg-purple-800 hover:bg-purple-700 text-center shadow-sm shadow-gray-100 px-8 py-2 rounded font-medium text-white w-full'
             >Baixar CV</a>
             <a 
             href="#"
-            className='bg-purple-800 hover:bg-purple-700 shadow-sm shadow-gray-100 px-8 py-2 rounded font-medium text-white'
+            className='bg-purple-800 hover:bg-purple-700 text-center shadow-sm shadow-gray-100 px-8 py-2 rounded font-medium text-white w-full'
             >Copiar e-mail</a>
           </div>
         </div>
