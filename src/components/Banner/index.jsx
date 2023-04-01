@@ -4,7 +4,7 @@ export function Banner(){
   return(
     <div className="bg-black container mx-auto h-auto flex flex-col items-center justify-center space-y-14 py-24 px-24">
       
-      <p className="bg-white bg-opacity-10 text-white font-medium px-3 py-1 rounded">TECNOLOGIA COMO UM ATIVO</p>
+      <p className="bg-white bg-opacity-10 text-white font-medium px-3 py-1 rounded">{"<h1> Hello World </h1>"}</p>
       
       <h1 className="text-5xl text-center font-light text-white">Olá, eu sou <span className="text-purple-800">Guilherme</span> <br/> <strong className="font-bold">Desenvolvedor Front-end</strong></h1>
       
