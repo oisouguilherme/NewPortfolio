@@ -12,7 +12,7 @@ import { Botao } from "../Projetos/Botao";
 
 export function Conhecimentos() {
   return (
-    <div className=" py-8 px-8 lg:px-24 bg-black bg-opacity-95 flex flex-col items-center justify-around space-y-10">
+    <section id="Conhecimentos" className=" py-8 px-8 lg:px-24 bg-black bg-opacity-95 flex flex-col items-center justify-around space-y-10">
       <div className=" flex flex-col xl:flex-row items-center justify-around space-y-5 gap-4">
         <div className="text-center py-10">
           <h2 className="text-white font-bold text-4xl pb-12">Hard Skills</h2>
@@ -54,6 +54,6 @@ export function Conhecimentos() {
         </div>
       </div>
       <Botao text={"Acesse meus Certificados"}/>
-    </div>
+    </section>
   );
 }

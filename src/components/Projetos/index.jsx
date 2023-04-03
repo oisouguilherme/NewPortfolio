@@ -6,7 +6,7 @@ import { Botao } from "./Botao";
 
 export function Projetos() {
   return (
-    <div className="bg-black p-8 lg:p-24 space-y-16">
+    <section id="Projetos" className="bg-black p-8 lg:p-24 space-y-16">
       <h2 className="text-white font-bold text-4xl text-center">
         Meus Projetos
       </h2>
@@ -41,12 +41,12 @@ export function Projetos() {
           <Slide projeto={"Projeto 6"} imagem={ImagemTeste} />
         </SwiperSlide>
         <SwiperSlide>
-          <Slide projeto={"Projeto 7"} imagem={ImagemTeste} />
+          <Slide projeto={"Projeto 7"} imagem={ImagemTeste} linkGithub={"#"}/>
         </SwiperSlide>
       </Swiper>
       <div className="flex justify-center">
         <Botao text={"Abrir Gihthub"} />
       </div>
-    </div>
+    </section>
   );
 }

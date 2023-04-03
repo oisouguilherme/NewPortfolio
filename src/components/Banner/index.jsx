@@ -2,7 +2,7 @@ import { RedeSocial } from "./RedeSocial";
 
 export function Banner(){
   return(
-    <div 
+    <section id="Banner"
     className="bg-black h-auto flex flex-col items-center justify-center space-y-14 py-24 lg:px-24">
       
       <p className="bg-white bg-opacity-10 text-white font-medium px-3 py-1 rounded">{"<h1> Hello World </h1>"}</p>
@@ -13,9 +13,9 @@ export function Banner(){
         Fico feliz em vê-lo (a) por aqui. Espero que aproveite o conteúdo e que eu possa te ajudar de alguma forma.
       </p>
       
-      <a href="#" className="text-white text-md bg-purple-800 px-24 py-2 rounded font-medium hover:bg-purple-700">Conhecer mais</a>
+      <a href="#" className="text-white text-md bg-purple-800 px-24 py-2 rounded font-medium hover:bg-purple-700 hover:scale-110 duration-200">Conhecer mais</a>
 
       <RedeSocial />
-    </div>
+    </section>
   )
 }
