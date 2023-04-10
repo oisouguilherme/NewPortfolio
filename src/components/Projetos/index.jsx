@@ -45,7 +45,7 @@ export function Projetos() {
         </SwiperSlide>
       </Swiper>
       <div className="flex justify-center">
-        <Botao text={"Abrir Gihthub"} />
+        <Botao text={"Abrir Gihthub"} link={"https://github.com/oisouguilherme?tab=repositories"} />
       </div>
     </section>
   );

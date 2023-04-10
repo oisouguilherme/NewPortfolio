@@ -7,7 +7,7 @@ export function Networking(){
         redes.
       </p>
       <div className="flex flex-wrap gap-8 items-center justify-center pt-12 ">
-        <a href="#" className="border border-purple-700 flex items-end gap-4 py-4 px-12 font-medium text-xl w-56 hover:border-purple-300 hover:scale-110 duration-200">
+        <a href="https://www.linkedin.com/in/front-end-guilherme-henrique/" target="_blank" className="border border-purple-700 flex items-end gap-4 py-4 px-12 font-medium text-xl w-56 hover:border-purple-300 hover:scale-110 duration-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -20,7 +20,7 @@ export function Networking(){
           </svg>
           <p>LinkedIn</p>
         </a>
-        <a href="#" className="border border-purple-700 flex items-end gap-4 py-4 px-12 font-medium text-xl w-56 hover:border-purple-300 hover:scale-110 duration-200">
+        <a href="https://github.com/oisouguilherme" target="_blank" className="border border-purple-700 flex items-end gap-4 py-4 px-12 font-medium text-xl w-56 hover:border-purple-300 hover:scale-110 duration-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -33,7 +33,7 @@ export function Networking(){
           </svg>
           <p>Github</p>
         </a>
-        <a href="#" className="border border-purple-700 flex items-end gap-4 py-4 px-12 font-medium text-xl w-56 hover:border-purple-300 hover:scale-110 duration-200">
+        <a href="https://www.instagram.com/guilherme.militao/" target="_blank" className="border border-purple-700 flex items-end gap-4 py-4 px-12 font-medium text-xl w-56 hover:border-purple-300 hover:scale-110 duration-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

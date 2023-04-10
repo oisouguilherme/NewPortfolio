@@ -12,7 +12,7 @@ export function FaixaEXP(){
         text="Projetos pessoais e educativos concluídos"
       />
       <Exp 
-        time="01" 
+        time="02" 
         text="Projeto freelancer entregue"
       />
       <Exp 

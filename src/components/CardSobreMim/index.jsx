@@ -5,9 +5,6 @@ export function CardSobreMim(){
     <section title="CardSobreMim" id='CardSobreMim' className="flex justify-center bg-black bg-opacity-95 px-0 md:px-8 lg:px-24 py-24">
       <div className="bg-black bg-opacity-5 w-3/4 flex flex-col items-center text-center lg:flex-row lg:text-start border border-gray-500">
         <div className="w-1/2 pt-12 flex flex-col items-center lg:items-start">
-          <a 
-          href="#" 
-          className="bg-purple-800 shadow-sm shadow-gray-100 text-white font-medium px-6 py-1 rounded w-36 hover:bg-purple-700 lg:ml-6 duration-200 hover:scale-110">Clique Aqui</a>
           <img 
           className='rounded-full w-96 lg:w-3/4 mx-auto mt-20 lg:my-12'
           src={perfil} 
@@ -20,7 +17,7 @@ export function CardSobreMim(){
         
           <p className="text-white text-lg">Frontend Developer & Tester de Software</p>
           
-          <p className="text-white text-lg pt-4 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo officiis voluptas doloremque eligendi. Officia repellat et vel similique saepe vero quod facere dolorem libero possimus ab adipisci, , sapiente pariatur, sapiente pariatur, sapiente pariatursapiente pariatur.</p>
+          <p className="text-white text-lg pt-4 text-justify">Com habilidades técnicas em React, NextJS, HTML, CSS, TailwindCSS, JavaScript, Git e Github, sou um desenvolvedor front-end apaixonado por criar interfaces de usuário interativas e atraentes. Eu adoro desafios e estou sempre procurando aprender coisas novas. Além disso, tenho excelentes habilidades interpessoais, trabalho bem em equipe e sou um bom comunicador. Sou apaixonado por aprender e estou sempre procurando me atualizar nas últimas tendências e tecnologias.</p>
 
           <div className='pt-6 flex gap-6 flex-wrap'>
             <a 

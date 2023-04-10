@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import { RedeSocial } from "./RedeSocial";
 
 export function Banner(){
@@ -13,7 +14,11 @@ export function Banner(){
         Fico feliz em vê-lo (a) por aqui. Espero que aproveite o conteúdo e que eu possa te ajudar de alguma forma.
       </p>
       
-      <a href="#" className="text-white text-md bg-purple-800 px-24 py-2 rounded font-medium hover:bg-purple-700 hover:scale-110 duration-200">Conhecer mais</a>
+      <Link 
+      smooth={true}
+      duration={500}
+      to={"CardSobreMim"}
+      className="text-white text-md bg-purple-800 px-24 py-2 rounded font-medium hover:bg-purple-700 hover:scale-110 duration-200">Conhecer mais</Link>
 
       <RedeSocial />
     </section>
