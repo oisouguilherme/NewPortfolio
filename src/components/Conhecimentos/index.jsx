@@ -64,7 +64,7 @@ export function Conhecimentos() {
           </div>
         </div>
       </div>
-      <Botao text={"Acesse meus Certificados"} link={"https://www.linkedin.com/in/front-end-guilherme-henrique/details/certifications/"}/>
+      <Botao text={"Acesse meus Certificados"} link={"https://drive.google.com/drive/folders/1vJjEqBD7whN2yQvaHZBLYP2ZcFw3oxkY?usp=sharing"}/>
     </section>
   );
 }
