@@ -1,6 +1,6 @@
 export function Networking(){
   return (
-    <div className="bg-black opacity-95 text-white p-8 md:p-24 text-center space-y-4 ">
+    <div className="bg-black  text-white p-8 md:p-24 text-center space-y-4 ">
       <h2 className="text-white font-black text-4xl">Networking</h2>
       <p className="text-xl">
         Você pode me enviar um email ou conversar diretamente através das minhas

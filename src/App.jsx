@@ -17,7 +17,6 @@ function App() {
       <CardSobreMim />
       <Projetos />
       <Conhecimentos />
-      <Experiencia />
       <Networking />
       <Footer />
     </div>

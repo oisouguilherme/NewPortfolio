@@ -18,7 +18,7 @@ export function Banner(){
       smooth={true}
       duration={500}
       to={"CardSobreMim"}
-      className="text-white text-md bg-purple-800 px-24 py-2 rounded font-medium hover:bg-purple-700 hover:scale-110 duration-200">Conhecer mais</Link>
+      className="text-white text-md bg-purple-800 px-24 py-2 rounded font-medium hover:bg-purple-700 hover:scale-110 duration-200 cursor-pointer">Conhecer mais</Link>
 
       <RedeSocial />
     </section>

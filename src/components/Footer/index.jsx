@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 export function Footer(){
   return (
-    <div className="bg-black opacity-95 text-white text-center flex flex-col items-center space-y-6">
+    <div className="bg-black pt-24 text-white text-center flex flex-col items-center space-y-6">
       <Link
         className="font-black text-lg text-purple-800 cursor-pointer flex items-center gap-5 border border-purple-800 hover:border-purple-300 px-6 py-2 hover:text-purple-700 hover:scale-110 w-fit"
         to="Header"

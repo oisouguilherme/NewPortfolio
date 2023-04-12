@@ -1,24 +1,23 @@
 export function Slide({projeto,linkGithub,linkSite,imagem}) {
   return (
-    <div className="w-full h-96 relative">
+    <div className="w-full h-72 relative ">
       <div className="absolute bottom-6 left-6">
-        <p className="font-black text-3xl text-white mb-4">{projeto}</p>
         <div className="space-x-3">
           <a
             className="bg-purple-950 hover:bg-purple-800 px-6 py-1 rounded text-white font-medium text-lg duration-500 cursor-pointer"
-            href={linkGithub}
+            href={linkGithub} target="_blank"
           >
             Github
           </a>
           <a
             className="bg-purple-950 hover:bg-purple-800 px-6 py-1 rounded text-white font-medium text-lg duration-500 hover:scale-110 cursor-pointer"
-            href={linkSite}
+            href={linkSite} target="_blank"
           >
             Site
           </a>
         </div>
       </div>
-      <img className="h-full object-cover" src={imagem} alt={projeto} />
+      <img className="cursor-pointer" src={imagem} alt={projeto} />
     </div>
   );
 }
