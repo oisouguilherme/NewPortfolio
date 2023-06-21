@@ -24,7 +24,7 @@ export function CardSobreMim(){
 
           <div className='pt-6 flex gap-6 flex-wrap'>
             <a 
-            href="https://drive.google.com/file/d/1iki_e0akbGzjgvMUhdoZkQNGuzy4UvDe/view?usp=sharing" target='_blank'
+            href="https://drive.google.com/file/d/1IS3hZLlPUG3r_iDbYFhvAU13vZEKvI4I/view?usp=sharing" target='_blank'
             className='bg-purple-800 hover:bg-purple-700 text-center shadow-sm shadow-gray-100 px-8 py-2 rounded font-medium text-white w-full duration-200'
             >Baixar CV</a>
             <a 
