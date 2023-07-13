@@ -1,7 +1,7 @@
 export function RedeSocial() {
   return (
     <ul className="flex space-x-6">
-      <li>
+      <li className="hover:scale-105 duration-300">
         <a href="https://www.instagram.com/guilherme.militao/" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@ export function RedeSocial() {
         </a>
       </li>
 
-      <li>
+      <li className="hover:scale-105 duration-300">
         <a href="https://github.com/oisouguilherme" target="_blank">
           <svg
             className="hover:fill-purple-800 cursor-pointer"
@@ -32,8 +32,8 @@ export function RedeSocial() {
         </a>
       </li>
 
-      <li>
-        <a href="https://www.instagram.com/guilherme.militao/" target="_blank">
+      <li className="hover:scale-105 duration-300">
+        <a href="https://www.linkedin.com/in/front-end-guilherme-henrique/" target="_blank">
           <svg
             className="hover:fill-purple-800 cursor-pointer"
             xmlns="http://www.w3.org/2000/svg"

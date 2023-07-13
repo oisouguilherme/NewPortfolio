@@ -40,7 +40,7 @@ export function Conhecimentos() {
                 image={StyledComponents}
                 text={"StyledComponents"}
               />
-              <CardConhecimento image={Sass} text={"Sass"} />
+              <CardConhecimento image={Next} text={"Next JS"} />
               <CardConhecimento image={Typescript} text={"Typescript"} />
             </div>
           </div>

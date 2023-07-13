@@ -7,7 +7,7 @@ export function ItemNav({ text, nav }) {
         smooth={true}
         duration={500}
         to={nav}
-        className="text-white font-medium hover:text-purple-800 cursor-pointer"
+        className="text-white font-medium hover:text-purple-800 cursor-pointer duration-300 text-lg uppercase"
       >
         {text}
       </Link>

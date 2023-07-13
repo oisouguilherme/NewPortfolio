@@ -7,10 +7,9 @@ export function Header (){
       <img src={logo} alt="logo" className='h-full' />
       <ul className='sm:flex space-x-8 hidden'>
         <ItemNav text={"Ínicio"} nav={""} />
-        <ItemNav text={"Sobre"} nav={"CardSobreMim"}/>
+        <ItemNav text={"Sobre Mim"} nav={"CardSobreMim"}/>
         <ItemNav text={"Projetos"} nav={"Projetos"}/>
         <ItemNav text={"Qualificações"} nav={"Conhecimentos"}/>
-        <ItemNav text={"Experiencia"} nav={"Experiencia"}/>
       </ul>
 
     </section>

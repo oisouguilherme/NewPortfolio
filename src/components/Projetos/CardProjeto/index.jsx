@@ -1,7 +1,7 @@
 import Logo from "../../../assets/logo.png";
 export function CardProjeto({ image, title, client, logoClient, tec1, tec2 }) {
   return (
-    <div className="text-white w-80 bg-white bg-opacity-5 rounded-xl overflow-hidden">
+    <div className="text-white w-80 bg-white bg-opacity-5 rounded-xl overflow-hidden cursor-pointer hover:scale-105 duration-300 border">
       <div className="p-4">
         <div className="flex justify-end gap-4 pb-4 text-sm">
           <p className="bg-gray-300 px-4 py-1 rounded-full text-black font-medium">

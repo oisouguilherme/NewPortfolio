@@ -8,10 +8,11 @@ import Page6 from '../../assets/projetos/page6.png'
 import Page7 from '../../assets/projetos/page7.png'
 import Page8 from '../../assets/projetos/page8.png'
 import Page9 from '../../assets/projetos/page9.png'
+import { Botao } from "./Botao";
 
 export function Projetos() {
   return (
-    <section id="Projetos" className="bg-black p-8 lg:p-24 space-y-16">
+    <section id="Projetos" className="bg-black flex flex-col items-center p-8 lg:p-24 space-y-16">
       <h2 className="text-white font-bold text-4xl text-center">
         Meus Projetos
       </h2>
@@ -80,6 +81,7 @@ export function Projetos() {
           tec2={"TailwindCSS"}
         />
       </div>
+      <Botao link={"https://github.com/oisouguilherme?tab=repositories"} text={"VER MAIS PROJETOS"}/>
     </section>
   );
 }

@@ -8,12 +8,12 @@ export function FaixaEXP(){
         text="Ano de experiência como desenvolvedor"
       />
       <Exp 
-        time="31" 
+        time="67" 
         text="Projetos pessoais e educativos concluídos"
       />
       <Exp 
-        time="02" 
-        text="Projeto freelancer entregue"
+        time="09" 
+        text="Projetos freelancer entregues"
       />
       <Exp 
         time="12" 
