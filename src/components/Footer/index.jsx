@@ -1,5 +1,3 @@
-import { Link } from "react-scroll";
-
 export function Footer(){
   return (
     <div className="bg-black text-white text-center">

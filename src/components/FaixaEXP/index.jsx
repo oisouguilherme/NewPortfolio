@@ -1,24 +1,15 @@
 import { Exp } from "./EXP";
 
-export function FaixaEXP(){
-  return(
-    <div className="bg-black space-y-12 md:space-y-0 flex flex-col md:flex-row items-center justify-center md:space-x-12 px-36 text-center md:px-24 pb-16">
-      <Exp 
-        time="01" 
-        text="Ano de experiência como desenvolvedor"
-      />
-      <Exp 
-        time="67" 
-        text="Projetos pessoais e educativos concluídos"
-      />
-      <Exp 
-        time="09" 
-        text="Projetos freelancer entregues"
-      />
-      <Exp 
-        time="12" 
-        text="Cursos front-end concluídos"
-      />
+
+export function FaixaEXP() {
+  return (
+    <div className="bg-black py-20">
+      <div className=" max-w-6xl mx-auto px-4 flex flex-wrap justify-center gap-12">
+        <Exp plus={"+"} time="50" text="Projetos completos, entregues com sucesso e satisfação dos clientes." />
+        <Exp plus={"+"} complement={"ano"} time="1" text="Mais de 1 ano de atuação no mercado como desenvolvedor freelancer." />
+        <Exp time="100" complement={"%"} text="Priorizo a satisfação dos meus clientes em cada etapa do projeto." />
+        <Exp plus={"+"} complement={"%"} time="90" text="Alta taxa de feedback positivo dos clientes." />
+      </div>
     </div>
-  )
+  );
 }

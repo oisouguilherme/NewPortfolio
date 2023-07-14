@@ -1,7 +1,11 @@
 import Logo from "../../../assets/logo.png";
-export function CardProjeto({ image, title, client, logoClient, tec1, tec2 }) {
+export function CardProjeto({ image, title, client, tec1, tec2, link }) {
   return (
-    <div className="text-white w-80 bg-white bg-opacity-5 rounded-xl overflow-hidden cursor-pointer hover:scale-105 duration-300 border">
+    <a
+      target="_blank"
+      href={link}
+      className="text-white sm:w-80 bg-white bg-opacity-5 rounded-xl overflow-hidden cursor-pointer hover:scale-105 duration-300 border"
+    >
       <div className="p-4">
         <div className="flex justify-end gap-4 pb-4 text-sm">
           <p className="bg-gray-300 px-4 py-1 rounded-full text-black font-medium">
@@ -24,6 +28,6 @@ export function CardProjeto({ image, title, client, logoClient, tec1, tec2 }) {
       <div>
         <img src={image} alt={title} />
       </div>
-    </div>
+    </a>
   );
 }

@@ -12,7 +12,7 @@ import { Botao } from "./Botao";
 
 export function Projetos() {
   return (
-    <section id="Projetos" className="bg-black flex flex-col items-center p-8 lg:p-24 space-y-16">
+    <section id="Projetos" className="bg-black flex flex-col items-center px-4 py-20 space-y-16">
       <h2 className="text-white font-bold text-4xl text-center">
         Meus Projetos
       </h2>
@@ -23,6 +23,7 @@ export function Projetos() {
           image={Page1}
           tec1={"Next JS"}
           tec2={"SPA"}
+          link={"https://consultoria-ambiental-spa.vercel.app/"}
         />
         <CardProjeto
           title={"Clinica Medica:"}
@@ -30,6 +31,7 @@ export function Projetos() {
           image={Page2}
           tec1={"Next JS"}
           tec2={"React-Scroll"}
+          link={"https://layout-clinica.vercel.app/"}
         />
         <CardProjeto
           title={"Contabilidade:"}
@@ -37,6 +39,7 @@ export function Projetos() {
           image={Page3}
           tec1={"Next JS"}
           tec2={"TailwindCSS"}
+          link={"https://contabilidade-inova.vercel.app/"}
         />
         <CardProjeto
           title={"E-Comerce IPhone:"}
@@ -44,6 +47,7 @@ export function Projetos() {
           image={Page4}
           tec1={"Next JS"}
           tec2={"E-Comerce"}
+          link={"https://goi-store-e-comerce.vercel.app/"}
         />
         <CardProjeto
           title={"Corretora de Seguros:"}
@@ -51,6 +55,7 @@ export function Projetos() {
           image={Page5}
           tec1={"Pagina Instiucional"}
           tec2={"AOS"}
+          link={"https://page-corretora-zunic.vercel.app/"}
         />
         <CardProjeto
           title={"Mentoria Instagram:"}
@@ -58,6 +63,7 @@ export function Projetos() {
           image={Page6}
           tec1={"React JS"}
           tec2={"TailwindCSS"}
+          link={"https://ulissesalmeida.com.br/"}
         />
         <CardProjeto
           title={"Curso de Vendas:"}
@@ -65,6 +71,7 @@ export function Projetos() {
           image={Page7}
           tec1={"React JS"}
           tec2={"HTML / CSS"}
+          link={"https://vqc-whatsapp.ulissesalmeida.com.br/"}
         />
         <CardProjeto
           title={"Rafael Prudente Institucional:"}
@@ -72,6 +79,7 @@ export function Projetos() {
           image={Page8}
           tec1={"Next JS"}
           tec2={"TailwindCSS"}
+          link={"https://rafael-prudentet1.websiteseguro.com/"}
         />
         <CardProjeto
           title={"Cofen Infermagem:"}
@@ -79,6 +87,7 @@ export function Projetos() {
           image={Page9}
           tec1={"Next JS"}
           tec2={"TailwindCSS"}
+          link={"http://piso.cofen.gov.br/"}
         />
       </div>
       <Botao link={"https://github.com/oisouguilherme?tab=repositories"} text={"VER MAIS PROJETOS"}/>
