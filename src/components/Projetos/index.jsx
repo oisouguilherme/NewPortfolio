@@ -8,6 +8,8 @@ import Page6 from '../../assets/projetos/page6.png'
 import Page7 from '../../assets/projetos/page7.png'
 import Page8 from '../../assets/projetos/page8.png'
 import Page9 from '../../assets/projetos/page9.png'
+import Page10 from '../../assets/projetos/page10.png'
+
 import { Botao } from "./Botao";
 
 export function Projetos() {
@@ -88,6 +90,14 @@ export function Projetos() {
           tec1={"Next JS"}
           tec2={"TailwindCSS"}
           link={"http://piso.cofen.gov.br/"}
+        />
+        <CardProjeto
+          title={"Programa Mulher"}
+          client={"Confea/Confen"}
+          image={Page10}
+          tec1={"Next JS"}
+          tec2={"LandingPages SPA"}
+          link={"https://lp-programa-mulher.vercel.app/"}
         />
       </div>
       <Botao link={"https://github.com/oisouguilherme?tab=repositories"} text={"VER MAIS PROJETOS"}/>
